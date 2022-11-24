@@ -1,0 +1,30 @@
+.app {
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.int {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    display: block;
+}
+.intes{
+    display: flex;
+    justify-content: flex-start;
+}
